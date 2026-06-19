@@ -1,0 +1,44 @@
+html[data-chat-theme="purple"],
+html[data-chat-theme="purple"] .dark {
+    --purple-theme-user-msg-bg: #402a47 !important;
+    --purple-theme-submit-btn-bg: #6d487a !important;
+    --purple-theme-secondary-btn-bg: #4d3357 !important;
+    --purple-theme-user-selection-bg: color-mix(in oklab, #b175c7 60%, transparent) !important;
+    --purple-theme-entity-accent: #b175c7 !important;
+    --theme-user-msg-bg: #402a47 !important;
+    --theme-submit-btn-bg: #6d487a !important;
+    --theme-secondary-btn-bg: #4d3357 !important;
+    --theme-user-selection-bg: color-mix(in oklab, #b175c7 60%, transparent) !important;
+    --theme-attribution-highlight-bg: color-mix(in oklab, #b175c7 60%, transparent) !important;
+    --theme-entity-accent: #b175c7 !important;
+}
+
+html[data-chat-theme="purple"].mini-root,
+html[data-chat-theme="purple"].mini-root .dark {
+    --purple-theme-interactive-label-accent: #b175c7 !important;
+    --purple-theme-interactive-bg-accent-default: #402a47 !important;
+    --purple-theme-interactive-bg-accent-hover: #4d3357 !important;
+    --purple-theme-interactive-bg-accent-press: #6d487a !important;
+    --purple-theme-interactive-bg-accent-inactive: #402a47 !important;
+    --purple-theme-interactive-bg-accent-muted-context: #402a4780 !important;
+    --purple-theme-interactive-bg-accent-muted-hover: #402a47 !important;
+    --purple-theme-interactive-bg-accent-muted-press: #4d3357 !important;
+    --interactive-label-accent-default: #b175c7 !important;
+    --interactive-label-accent-hover: #b175c7 !important;
+    --interactive-label-accent-press: #b175c7 !important;
+    --interactive-label-accent-inactive: #b175c7 !important;
+    --interactive-label-accent-selected: #b175c7 !important;
+    --interactive-bg-accent-default: #402a47 !important;
+    --interactive-bg-accent-hover: #4d3357 !important;
+    --interactive-bg-accent-press: #6d487a !important;
+    --interactive-bg-accent-inactive: #402a47 !important;
+    --interactive-bg-accent-muted-context: #402a4780 !important;
+    --interactive-bg-accent-muted-hover: #402a47 !important;
+    --interactive-bg-accent-muted-press: #4d3357 !important;
+}
+
+html[data-chat-theme="purple"] ::selection,
+html[data-chat-theme="purple"] .dark ::selection {
+    background-color: color-mix(in oklab, #b175c7 60%, transparent) !important;
+    color: #fff !important;
+}

@@ -1,0 +1,283 @@
+html.dark,
+html.dark body,
+html.dark[data-oled],
+html.dark[data-oled] body {
+    --main-surface-primary: #212121 !important;
+    --main-surface-background: #212121 !important;
+    --main-surface-secondary: #2f2f2f !important;
+    --main-surface-secondary-selected: #ffffff26 !important;
+    --main-surface-tertiary: #303030 !important;
+    --sidebar-surface-primary: #212121 !important;
+    --sidebar-surface-secondary: #2f2f2f !important;
+    --sidebar-surface-tertiary: #303030 !important;
+    --sidebar-surface: #212121 !important;
+    --bg-primary: #212121 !important;
+    --bg-secondary: #303030 !important;
+    --bg-tertiary: #414141 !important;
+    --bg-secondary-surface: #212121 !important;
+    --bg-elevated-primary: #303030 !important;
+    --bg-elevated-secondary: #212121 !important;
+    --composer-surface-primary: #303030 !important;
+    --composer-surface: #303030 !important;
+    --message-surface: #323232d9 !important;
+    --surface-hover: #ffffff26 !important;
+    --border-light: #ffffff1a !important;
+    --border-medium: #ffffff26 !important;
+    --content-fade-bg: #212121 !important;
+    --content-fade-surface: #212121 !important;
+    --fade-start-color: #212121 !important;
+    --fade-end-color: #212121 !important;
+    --utility-scrollbar: #ffffff33 !important;
+    --scrollbar-color: #ffffff33 !important;
+    --scrollbar-color-hover: #ffffff4d !important;
+    --sidebar-surface-floating-lightness: .3 !important;
+    --sidebar-surface-floating-alpha: 1 !important;
+    --sidebar-surface-pinned-lightness: .29 !important;
+    --sidebar-surface-pinned-alpha: 1 !important;
+    background-color: #212121 !important;
+    scrollbar-color: #ffffff33 #212121 !important;
+}
+
+html.dark,
+html.dark body,
+html.dark main,
+html.dark #main,
+html.dark #thread,
+html.dark [data-scroll-root],
+html.dark .composer-parent,
+html.dark #page-header,
+html.dark #stage-slideover-sidebar,
+html.dark #stage-slideover-sidebar > div,
+html.dark .bg-token-main-surface-primary,
+html.dark .bg-surface-primary,
+html.dark [class*="bg-token-main-surface-primary"],
+html.dark [class*="bg-[var(--main-surface-primary)]"],
+html.dark .bg-\(--sidebar-surface-primary\),
+html.dark .dark-oled\:bg-token-bg-secondary-surface {
+    background-color: #212121 !important;
+    background-image: none !important;
+}
+
+html.dark form[data-type="unified-composer"] .bg-token-bg-primary,
+html.dark form[data-type="unified-composer"] .dark\:bg-token-bg-elevated-primary,
+html.dark form[data-type="unified-composer"] .dark-oled\:bg-token-bg-primary {
+    background-color: #303030 !important;
+    background-image: none !important;
+}
+
+html.dark form[data-type="unified-composer"] [class*="composer-surface-primary"] {
+    background-color: #303030 !important;
+    background-image: none !important;
+}
+
+html.dark .__menu-item[data-sidebar-item] {
+    --menu-item-highlighted: #2f2f2f !important;
+    --menu-item-active: #303030 !important;
+}
+
+html.dark .__menu-item[data-sidebar-item]:hover,
+html.dark .__menu-item[data-sidebar-item][data-highlighted],
+html.dark .__menu-item[data-sidebar-item][data-state="open"] {
+    background-color: #2f2f2f !important;
+}
+
+html.dark #modal-settings,
+html.dark #modal-settings button {
+    --bg-primary-inverted: #313131 !important;
+    --interactive-bg-primary-inverted-context: #313131 !important;
+    --interactive-bg-default-primary-inverted: #313131 !important;
+    --interactive-bg-hover-primary-inverted: #3a3a3a !important;
+    --interactive-bg-press-primary-inverted: #2f2f2f !important;
+    --interactive-label-primary-inverted-context: #ffffff !important;
+    --interactive-label-default-primary-inverted: #ffffff !important;
+}
+
+html.dark #modal-settings button.btn:not(.btn-danger):not(.btn-danger-outline),
+html.dark #modal-settings button.rounded-full:not([role="switch"]),
+html.dark #modal-settings button[class*="rounded-full"]:not([role="switch"]),
+html.dark #modal-settings button.bg-token-bg-primary-inverted,
+html.dark #modal-settings button[class*="bg-token-bg-primary-inverted"],
+html.dark #modal-settings button[class*="bg-[var(--bg-primary-inverted)]"],
+html.dark #modal-settings .btn-primary-inverse,
+html.dark #modal-settings .interactive-bg-primary-inverted,
+html.dark #modal-settings button.bg-black,
+html.dark #modal-settings button.bg-black\!,
+html.dark #modal-settings button[class*="bg-black"],
+html.dark #modal-settings button[class*="bg-[#0d0d0d"],
+html.dark #modal-settings button[class*="bg-[#0D0D0D"] {
+    background-color: #313131 !important;
+    color: #ffffff !important;
+    border-color: #4a4a4a !important;
+}
+
+html.dark #modal-settings button.btn:not(.btn-danger):not(.btn-danger-outline):hover,
+html.dark #modal-settings button.rounded-full:not([role="switch"]):hover,
+html.dark #modal-settings button[class*="rounded-full"]:not([role="switch"]):hover,
+html.dark #modal-settings button.bg-token-bg-primary-inverted:hover,
+html.dark #modal-settings button[class*="bg-token-bg-primary-inverted"]:hover,
+html.dark #modal-settings button[class*="bg-[var(--bg-primary-inverted)]"]:hover,
+html.dark #modal-settings .btn-primary-inverse:hover,
+html.dark #modal-settings .interactive-bg-primary-inverted:hover,
+html.dark #modal-settings button.bg-black:hover,
+html.dark #modal-settings button.bg-black\!:hover,
+html.dark #modal-settings button[class*="bg-black"]:hover,
+html.dark #modal-settings button[class*="bg-[#0d0d0d"]:hover,
+html.dark #modal-settings button[class*="bg-[#0D0D0D"]:hover {
+    background-color: #3a3a3a !important;
+    color: #ffffff !important;
+}
+
+html.dark #modal-settings button[role="switch"],
+html.dark #modal-settings button[role="switch"].interactive-bg-control,
+html.dark #modal-settings button[role="switch"][class*="interactive-bg-control"],
+html.dark #modal-settings button[role="switch"][class*="bg-black"] {
+    --interactive-bg-control: #3a3a3a !important;
+    background-color: #3a3a3a !important;
+    border-color: #555555 !important;
+}
+
+html.dark #modal-settings button[role="switch"][data-state="checked"],
+html.dark #modal-settings button[role="switch"][aria-checked="true"],
+html.dark #modal-settings button[role="switch"][class*="radix-state-checked:bg-black"] {
+    --interactive-bg-control: #4a4a4a !important;
+    background-color: #4a4a4a !important;
+}
+
+html.dark #modal-delete-conversation-confirmation button.btn-secondary {
+    background-color: #313131 !important;
+    color: #ffffff !important;
+    border-color: #4a4a4a !important;
+}
+
+html.dark #modal-delete-conversation-confirmation button.btn-secondary:hover {
+    background-color: #3a3a3a !important;
+    color: #ffffff !important;
+}
+
+html.dark :is(dialog, [role="dialog"]) :is(button, a).btn-secondary:not(.btn-danger):not(.btn-danger-outline) {
+    background-color: #313131 !important;
+    color: #ffffff !important;
+    border-color: #4a4a4a !important;
+}
+
+html.dark :is(dialog, [role="dialog"]) :is(button, a).btn-secondary:not(.btn-danger):not(.btn-danger-outline):hover,
+html.dark :is(dialog, [role="dialog"]) :is(button, a).btn-secondary:not(.btn-danger):not(.btn-danger-outline):focus-visible {
+    background-color: #3a3a3a !important;
+    color: #ffffff !important;
+}
+
+html.dark :is(dialog, [role="dialog"]) button[role="switch"],
+html.dark :is(dialog, [role="dialog"]) button[role="switch"].interactive-bg-control,
+html.dark :is(dialog, [role="dialog"]) button[role="switch"][class*="interactive-bg-control"],
+html.dark :is(dialog, [role="dialog"]) button[role="switch"][class*="bg-black"] {
+    --interactive-bg-control: #3a3a3a !important;
+    background-color: #3a3a3a !important;
+    border-color: #555555 !important;
+}
+
+html.dark :is(dialog, [role="dialog"]) button[role="switch"][data-state="checked"],
+html.dark :is(dialog, [role="dialog"]) button[role="switch"][aria-checked="true"],
+html.dark :is(dialog, [role="dialog"]) button[role="switch"][class*="radix-state-checked:bg-black"] {
+    --interactive-bg-control: #4a4a4a !important;
+    background-color: #4a4a4a !important;
+}
+
+html.dark [data-testid="regenerate-thread-error-button"],
+html.dark section[class*="threadScrollVars"] :is(button, a).btn-secondary:not(.btn-danger):not(.btn-danger-outline) {
+    background-color: #313131 !important;
+    color: #ffffff !important;
+    border-color: #4a4a4a !important;
+}
+
+html.dark [data-testid="regenerate-thread-error-button"]:hover,
+html.dark [data-testid="regenerate-thread-error-button"]:focus-visible,
+html.dark section[class*="threadScrollVars"] :is(button, a).btn-secondary:not(.btn-danger):not(.btn-danger-outline):hover,
+html.dark section[class*="threadScrollVars"] :is(button, a).btn-secondary:not(.btn-danger):not(.btn-danger-outline):focus-visible {
+    background-color: #3a3a3a !important;
+    color: #ffffff !important;
+}
+
+html.dark [class*="bg-gradient"],
+html.dark [class*="from-token"],
+html.dark [class*="via-token"],
+html.dark [class*="to-token"] {
+    background-image: none !important;
+}
+
+html.dark .content-fade,
+html.dark .content-fade.single-line,
+html.dark .content-fade-top {
+    --content-fade-bg: #212121 !important;
+    --content-fade-surface: #212121 !important;
+    --fade-start-color: #212121 !important;
+    --fade-end-color: #212121 !important;
+}
+
+html.dark .content-fade::after,
+html.dark .content-fade.single-line::after,
+html.dark .content-fade-top::after {
+    background: #212121 !important;
+    background-color: #212121 !important;
+    background-image: none !important;
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
+}
+
+html.dark .bg-thread--header,
+html.dark .bg-thread--footer {
+    background: #212121 !important;
+    background-color: #212121 !important;
+    background-image: none !important;
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
+}
+
+html.dark [data-stage-thread-flyout],
+html.dark [data-stage-thread-flyout] > div,
+html.dark [data-stage-thread-flyout] [data-testid="screen-threadFlyOut"],
+html.dark [data-stage-thread-flyout] [data-testid="bar-search-sources-header"],
+html.dark [data-stage-thread-flyout] [slot="content"],
+html.dark [data-stage-thread-flyout] .bg-surface-primary,
+html.dark [data-stage-thread-flyout] .bg-token-main-surface-primary,
+html.dark [data-stage-thread-flyout] .bg-token-main-surface-primary\!,
+html.dark [data-stage-thread-flyout] [class*="bg-token-main-surface-primary"] {
+    background: #212121 !important;
+    background-color: #212121 !important;
+    background-image: none !important;
+}
+
+html.dark [data-stage-thread-flyout],
+html.dark [data-stage-thread-flyout] [class*="border-token-border-sharp"],
+html.dark [data-stage-thread-flyout] [class*="border-s-token-border-sharp"] {
+    border-color: #333333 !important;
+}
+
+html.dark .masked-content {
+    --content-gradient: linear-gradient(0deg, #fff 0%, #fff 100%) !important;
+}
+
+html.dark ::-webkit-scrollbar,
+html.dark ::-webkit-scrollbar-track,
+html.dark ::-webkit-scrollbar-corner {
+    background-color: #212121 !important;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+    background-color: #ffffff33 !important;
+    border: 2px solid #212121 !important;
+    border-radius: 9999px !important;
+}
+
+html.dark .dark\:prose-invert:where(.dark, .dark *):not(:where(.dark .light, .dark .light *)) :where(code):not(:where(pre code, [class~="not-prose"], [class~="not-prose"] *)),
+html.dark .prose :where(code):not(:where(pre code, [class~="not-prose"], [class~="not-prose"] *)) {
+    --tw-prose-inline-code-bg: #313131 !important;
+    background-color: #313131 !important;
+}
+
+html.dark main .bg-token-bg-elevated-secondary:has(#code-block-viewer) {
+    --bg-elevated-secondary: #181818 !important;
+    background-color: #181818 !important;
+    background-image: none !important;
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+    box-sizing: border-box !important;
+}
