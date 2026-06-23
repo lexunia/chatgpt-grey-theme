@@ -252,6 +252,20 @@ html.dark [data-stage-thread-flyout] [class*="border-s-token-border-sharp"] {
     border-color: #333333 !important;
 }
 
+html.dark .bg-token-bg-tooltip,
+html.dark [class*="bg-token-bg-tooltip"] {
+    background-color: #303030 !important;
+    background-image: none !important;
+    border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+html.dark .popover[role="dialog"][class*="dark:bg-black"] {
+    background: #303030 !important;
+    background-color: #303030 !important;
+    background-image: none !important;
+    border-color: #4a4a4a !important;
+}
+
 html.dark .masked-content {
     --content-gradient: linear-gradient(0deg, #fff 0%, #fff 100%) !important;
 }
