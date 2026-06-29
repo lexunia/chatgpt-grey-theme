@@ -246,10 +246,31 @@ html.dark [data-stage-thread-flyout] [class*="bg-token-main-surface-primary"] {
     background-image: none !important;
 }
 
+html.dark .stage-thread-flyout-preset-clamped,
+html.dark .stage-thread-flyout-preset-clamped .bg-token-main-surface-primary,
+html.dark .stage-thread-flyout-preset-clamped .bg-token-bg-primary,
+html.dark .stage-thread-flyout-preset-clamped [class*="dark:bg-black"] {
+    background: #212121 !important;
+    background-color: #212121 !important;
+    background-image: none !important;
+}
+
 html.dark [data-stage-thread-flyout],
 html.dark [data-stage-thread-flyout] [class*="border-token-border-sharp"],
-html.dark [data-stage-thread-flyout] [class*="border-s-token-border-sharp"] {
+html.dark [data-stage-thread-flyout] [class*="border-s-token-border-sharp"],
+html.dark .stage-thread-flyout-preset-clamped [class*="border-token-border-sharp"],
+html.dark .stage-thread-flyout-preset-clamped [class*="border-s-token-border-sharp"] {
     border-color: #333333 !important;
+}
+
+html.dark [class*="CardCarouselFrame"] [class*="_Box"] {
+    background-color: #303030 !important;
+    background-image: none !important;
+}
+
+html.dark .markdown [class*="bg-[#0D0D0D66]"] {
+    background-color: rgba(48, 48, 48, 0.78) !important;
+    background-image: none !important;
 }
 
 html.dark .bg-token-bg-tooltip,
