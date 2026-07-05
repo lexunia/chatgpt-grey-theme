@@ -316,3 +316,10 @@ html.dark main .bg-token-bg-elevated-secondary:has(#code-block-viewer) {
     border: 1px solid rgba(255, 255, 255, 0.01) !important;
     box-sizing: border-box !important;
 }
+
+#code-block-viewer.q9tKkq_viewer,
+#code-block-viewer.q9tKkq_viewer .cm-content,
+#code-block-viewer.q9tKkq_viewer .cm-line,
+#code-block-viewer.q9tKkq_viewer code {
+    font-size: 14px !important;
+}
