@@ -1,0 +1,44 @@
+html[data-chat-theme="purple"],
+html[data-chat-theme="purple"] .dark {
+    --purple-theme-user-msg-bg: #413265 !important;
+    --purple-theme-submit-btn-bg: #7249d1 !important;
+    --purple-theme-secondary-btn-bg: #ab89fa !important;
+    --purple-theme-user-selection-bg: #4e3980 !important;
+    --purple-theme-entity-accent: #4e3980 !important;
+    --theme-user-msg-bg: #413265 !important;
+    --theme-submit-btn-bg: #7249d1 !important;
+    --theme-secondary-btn-bg: #ab89fa !important;
+    --theme-user-selection-bg: #4e3980 !important;
+    --theme-attribution-highlight-bg: #4e3980 !important;
+    --theme-entity-accent: #4e3980 !important;
+}
+
+html[data-chat-theme="purple"].mini-root,
+html[data-chat-theme="purple"].mini-root .dark {
+    --purple-theme-interactive-label-accent: #4e3980 !important;
+    --purple-theme-interactive-bg-accent-default: #413265 !important;
+    --purple-theme-interactive-bg-accent-hover: #ab89fa !important;
+    --purple-theme-interactive-bg-accent-press: #7249d1 !important;
+    --purple-theme-interactive-bg-accent-inactive: #413265 !important;
+    --purple-theme-interactive-bg-accent-muted-context: #413265 !important;
+    --purple-theme-interactive-bg-accent-muted-hover: #413265 !important;
+    --purple-theme-interactive-bg-accent-muted-press: #ab89fa !important;
+    --interactive-label-accent-default: #4e3980 !important;
+    --interactive-label-accent-hover: #4e3980 !important;
+    --interactive-label-accent-press: #4e3980 !important;
+    --interactive-label-accent-inactive: #4e3980 !important;
+    --interactive-label-accent-selected: #4e3980 !important;
+    --interactive-bg-accent-default: #413265 !important;
+    --interactive-bg-accent-hover: #ab89fa !important;
+    --interactive-bg-accent-press: #7249d1 !important;
+    --interactive-bg-accent-inactive: #413265 !important;
+    --interactive-bg-accent-muted-context: #413265 !important;
+    --interactive-bg-accent-muted-hover: #413265 !important;
+    --interactive-bg-accent-muted-press: #ab89fa !important;
+}
+
+html[data-chat-theme="purple"] ::selection,
+html[data-chat-theme="purple"] .dark ::selection {
+    background-color: #4e3980 !important;
+    color: #fff !important;
+}
