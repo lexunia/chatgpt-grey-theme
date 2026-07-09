@@ -1,6 +1,6 @@
 # ChatGPT Grey Theme
 
-CSS overrides for restoring a grey ChatGPT interface and adjusting the purple chat accent.
+CSS overrides for restoring a grey ChatGPT interface.
 
 ## Styles
 

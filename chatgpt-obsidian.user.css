@@ -1,36 +1,36 @@
 html[data-chat-theme="purple"],
 html[data-chat-theme="purple"] .dark {
     --purple-theme-user-msg-bg: #413265 !important;
-    --purple-theme-submit-btn-bg: #6348a3 !important;
+    --purple-theme-submit-btn-bg: #8a5cf5 !important;
     --purple-theme-secondary-btn-bg: #ab89fa !important;
-    --purple-theme-user-selection-bg: #554185 !important;
-    --purple-theme-entity-accent: #554185 !important;
+    --purple-theme-user-selection-bg: #564185!important;
+    --purple-theme-entity-accent: #564185!important;
     --theme-user-msg-bg: #413265 !important;
-    --theme-submit-btn-bg: #6348a3 !important;
+    --theme-submit-btn-bg: #8a5cf5 !important;
     --theme-secondary-btn-bg: #ab89fa !important;
-    --theme-user-selection-bg: #554185 !important;
-    --theme-attribution-highlight-bg: #554185 !important;
-    --theme-entity-accent: #554185 !important;
+    --theme-user-selection-bg: #564185!important;
+    --theme-attribution-highlight-bg: #564185!important;
+    --theme-entity-accent: #564185!important;
 }
 
 html[data-chat-theme="purple"].mini-root,
 html[data-chat-theme="purple"].mini-root .dark {
-    --purple-theme-interactive-label-accent: #554185 !important;
+    --purple-theme-interactive-label-accent: #564185!important;
     --purple-theme-interactive-bg-accent-default: #413265 !important;
     --purple-theme-interactive-bg-accent-hover: #ab89fa !important;
-    --purple-theme-interactive-bg-accent-press: #6348a3 !important;
+    --purple-theme-interactive-bg-accent-press: #8a5cf5 !important;
     --purple-theme-interactive-bg-accent-inactive: #413265 !important;
     --purple-theme-interactive-bg-accent-muted-context: #413265 !important;
     --purple-theme-interactive-bg-accent-muted-hover: #413265 !important;
     --purple-theme-interactive-bg-accent-muted-press: #ab89fa !important;
-    --interactive-label-accent-default: #554185 !important;
-    --interactive-label-accent-hover: #554185 !important;
-    --interactive-label-accent-press: #554185 !important;
-    --interactive-label-accent-inactive: #554185 !important;
-    --interactive-label-accent-selected: #554185 !important;
+    --interactive-label-accent-default: #564185!important;
+    --interactive-label-accent-hover: #564185!important;
+    --interactive-label-accent-press: #564185!important;
+    --interactive-label-accent-inactive: #564185!important;
+    --interactive-label-accent-selected: #564185!important;
     --interactive-bg-accent-default: #413265 !important;
     --interactive-bg-accent-hover: #ab89fa !important;
-    --interactive-bg-accent-press: #6348a3 !important;
+    --interactive-bg-accent-press: #8a5cf5 !important;
     --interactive-bg-accent-inactive: #413265 !important;
     --interactive-bg-accent-muted-context: #413265 !important;
     --interactive-bg-accent-muted-hover: #413265 !important;
@@ -39,6 +39,6 @@ html[data-chat-theme="purple"].mini-root .dark {
 
 html[data-chat-theme="purple"] ::selection,
 html[data-chat-theme="purple"] .dark ::selection {
-    background-color: #554185 !important;
+    background-color: #564185!important;
     color: #fff !important;
 }
