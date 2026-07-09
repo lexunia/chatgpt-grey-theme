@@ -48,8 +48,11 @@ html.dark .composer-parent,
 html.dark #page-header,
 html.dark #stage-slideover-sidebar,
 html.dark #stage-slideover-sidebar > div,
+html.dark .stage-sidebar-pure-surface,
+html.dark .bg-token-sidebar-surface-primary,
 html.dark .bg-token-main-surface-primary,
 html.dark .bg-surface-primary,
+html.dark [class*="bg-token-sidebar-surface-primary"],
 html.dark [class*="bg-token-main-surface-primary"],
 html.dark [class*="bg-[var(--main-surface-primary)]"],
 html.dark .bg-\(--sidebar-surface-primary\),
@@ -309,8 +312,9 @@ html.dark .prose :where(code):not(:where(pre code, [class~="not-prose"], [class~
     background-color: #313131 !important;
 }
 
-html.dark main .bg-token-bg-elevated-secondary:has(#code-block-viewer) {
-    --bg-elevated-secondary: #181818 !important;
+html.dark main [class*="bg-(--code-block-surface)"]:has(#code-block-viewer) {
+    --code-block-surface: #181818 !important;
+    background: #181818 !important;
     background-color: #181818 !important;
     background-image: none !important;
     border: 1px solid rgba(255, 255, 255, 0.01) !important;
