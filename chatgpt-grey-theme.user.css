@@ -73,6 +73,19 @@ html.dark form[data-type="unified-composer"] [class*="composer-surface-primary"]
     background-image: none !important;
 }
 
+html.dark #prompt-textarea p.placeholder,
+html.dark #prompt-textarea p.placeholder::before,
+html.dark form[data-type="unified-composer"] button.__composer-pill.__composer-pill--neutral *,
+html.dark form[data-type="unified-composer"] button.__composer-pill.__composer-pill--neutral [class*="text-token-text-tertiary"] {
+    font-size: 14px !important;
+    line-height: 21px !important;
+}
+
+html.dark #prompt-textarea p.placeholder {
+    position: relative !important;
+    top: 1px !important;
+}
+
 html.dark .__menu-item[data-sidebar-item] {
     --menu-item-highlighted: #2f2f2f !important;
     --menu-item-active: #303030 !important;

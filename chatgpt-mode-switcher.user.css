@@ -1,6 +1,6 @@
 html.dark #page-header > .pointer-events-none.absolute:has([role="group"] button[role="radio"]) {
     inset-inline-start: auto !important;
-    inset-inline-end: -16px !important;
+    inset-inline-end: -11px !important;
     transform: none !important;
     align-items: flex-end !important;
 }
