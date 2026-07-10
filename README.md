@@ -6,6 +6,7 @@ CSS overrides for restoring a grey ChatGPT interface.
 
 - `chatgpt-grey-theme.user.css` — restores the grey dark-theme surfaces, dialogs, controls, and related interface elements.
 - `chatgpt-obsidian.user.css` — replaces the purple chat theme with a darker one.
+- `chatgpt-mode-switcher.user.css` — restyles the Chat / Work mode switcher as a compact text control.
 
 ## Installation
 

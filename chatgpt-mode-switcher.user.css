@@ -1,0 +1,65 @@
+html.dark #page-header > .pointer-events-none.absolute:has([role="group"] button[role="radio"]) {
+    inset-inline-start: auto !important;
+    inset-inline-end: -16px !important;
+    transform: none !important;
+    align-items: flex-end !important;
+}
+
+html.dark #page-header [role="group"]:has(button[role="radio"]) {
+    width: 128px !important;
+    height: 28px !important;
+    border-radius: 0 !important;
+}
+
+html.dark #page-header [role="group"]:has(button[role="radio"]) > [class*="dark:bg-[#131313]"],
+html.dark #page-header [role="group"]:has(button[role="radio"]) [class*="dark:bg-token-bg-elevated-primary"] {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+html.dark #page-header [role="group"]:has(button[role="radio"]) [class*="z-10"][class*="grid-cols-2"] {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    gap: 0 !important;
+}
+
+html.dark #page-header [role="group"]:has(button[role="radio"]) [class*="z-10"][class*="grid-cols-2"] > div {
+    display: flex !important;
+    align-items: center !important;
+    width: auto !important;
+    height: 28px !important;
+}
+
+html.dark #page-header [role="group"]:has(button[role="radio"]) [class*="z-10"][class*="grid-cols-2"] > div:first-child::after {
+    content: "\00b7" !important;
+    position: static !important;
+    display: inline-block !important;
+    margin-inline: 8px !important;
+    color: #8b8b8b !important;
+    font-weight: 600 !important;
+    white-space: pre !important;
+}
+
+html.dark #page-header [role="group"]:has(button[role="radio"]) button[role="radio"] {
+    width: auto !important;
+    min-width: 0 !important;
+    height: 28px !important;
+    padding: 0 !important;
+    font-size: 14px !important;
+    line-height: 28px !important;
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+html.dark #page-header [role="group"]:has(button[role="radio"]) button[role="radio"][aria-checked="true"] {
+    color: #dadada !important;
+}
+
+html.dark #page-header [role="group"]:has(button[role="radio"]) button[role="radio"][aria-checked="false"] {
+    color: #9a9a9a !important;
+}
