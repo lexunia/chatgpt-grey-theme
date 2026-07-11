@@ -11,6 +11,8 @@ html[data-chat-theme="purple"] .dark {
     --theme-user-selection-bg: #564185!important;
     --theme-attribution-highlight-bg: #564185!important;
     --theme-entity-accent: #564185!important;
+    --link: #cbb6fc !important;
+    --link-hover: #ab89fa !important;
 }
 
 html[data-chat-theme="purple"].mini-root,
@@ -41,4 +43,22 @@ html[data-chat-theme="purple"] ::selection,
 html[data-chat-theme="purple"] .dark ::selection {
     background-color: #564185!important;
     color: #fff !important;
+}
+
+html[data-chat-theme="purple"] .prose,
+html[data-chat-theme="purple"] .markdown {
+    --tw-prose-links: #cbb6fc !important;
+}
+
+html[data-chat-theme="purple"] .prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)),
+html[data-chat-theme="purple"] .markdown a:where(:not(.not-markdown *)),
+html[data-chat-theme="purple"] .markdown a.decorated-link:where(:not(.not-markdown *)) {
+    color: #cbb6fc !important;
+}
+
+html[data-chat-theme="purple"] .prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)):hover,
+html[data-chat-theme="purple"] .markdown a:where(:not(.not-markdown *)):hover,
+html[data-chat-theme="purple"] .markdown a.decorated-link:where(:not(.not-markdown *)):hover,
+html[data-chat-theme="purple"] .hover\:text-token-link-hover:hover {
+    color: #ab89fa !important;
 }
