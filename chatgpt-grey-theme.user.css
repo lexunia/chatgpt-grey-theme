@@ -74,16 +74,47 @@ html.dark form[data-type="unified-composer"] [class*="composer-surface-primary"]
 }
 
 html.dark #prompt-textarea p.placeholder,
-html.dark #prompt-textarea p.placeholder::before,
+html.dark #prompt-textarea p.placeholder::before {
+    font-size: 16px !important;
+    line-height: 26px !important;
+}
+
 html.dark form[data-type="unified-composer"] button.__composer-pill.__composer-pill--neutral *,
 html.dark form[data-type="unified-composer"] button.__composer-pill.__composer-pill--neutral [class*="text-token-text-tertiary"] {
     font-size: 14px !important;
     line-height: 21px !important;
 }
 
-html.dark #prompt-textarea p.placeholder {
-    position: relative !important;
-    top: 1px !important;
+html.dark [data-testid="use-case-prompt-chips"] > div {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 12px !important;
+}
+
+html.dark [data-testid="use-case-prompt-chips"] > div > div {
+    width: auto !important;
+    flex: 0 0 auto !important;
+}
+
+html.dark [data-testid="use-case-prompt-chips"] button {
+    width: auto !important;
+    height: 40px !important;
+    padding: 0 16px !important;
+    gap: 8px !important;
+    white-space: nowrap !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 9999px !important;
+    box-sizing: border-box !important;
+}
+
+html.dark [data-testid="use-case-prompt-chips"] button span:has(> svg.icon),
+html.dark [data-testid="use-case-prompt-chips"] button svg.icon {
+    width: 19px !important;
+    height: 19px !important;
 }
 
 html.dark .__menu-item[data-sidebar-item] {
@@ -262,6 +293,7 @@ html.dark [data-stage-thread-flyout] [class*="bg-token-main-surface-primary"] {
     background-image: none !important;
 }
 
+html.dark [data-testid="screen-threadFlyOut"] [class*="dark:bg-black"],
 html.dark .stage-thread-flyout-preset-clamped,
 html.dark .stage-thread-flyout-preset-clamped .bg-token-main-surface-primary,
 html.dark .stage-thread-flyout-preset-clamped .bg-token-bg-primary,
