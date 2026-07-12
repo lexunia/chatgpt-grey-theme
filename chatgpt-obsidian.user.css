@@ -52,13 +52,15 @@ html[data-chat-theme="purple"] .markdown {
 
 html[data-chat-theme="purple"] .prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)),
 html[data-chat-theme="purple"] .markdown a:where(:not(.not-markdown *)),
-html[data-chat-theme="purple"] .markdown a.decorated-link:where(:not(.not-markdown *)) {
+html[data-chat-theme="purple"] .markdown a.decorated-link:where(:not(.not-markdown *)),
+html[data-chat-theme="purple"] button.behavior-btn.text-token-text-link.entity-underline {
     color: #cbb6fc !important;
 }
 
 html[data-chat-theme="purple"] .prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)):hover,
 html[data-chat-theme="purple"] .markdown a:where(:not(.not-markdown *)):hover,
 html[data-chat-theme="purple"] .markdown a.decorated-link:where(:not(.not-markdown *)):hover,
-html[data-chat-theme="purple"] .hover\:text-token-link-hover:hover {
+html[data-chat-theme="purple"] .hover\:text-token-link-hover:hover,
+html[data-chat-theme="purple"] button.behavior-btn.text-token-text-link.entity-underline:hover {
     color: #ab89fa !important;
 }
