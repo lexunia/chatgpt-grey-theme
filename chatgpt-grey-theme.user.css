@@ -61,6 +61,10 @@ html.dark .dark-oled\:bg-token-bg-secondary-surface {
     background-image: none !important;
 }
 
+html.dark #page-header .translucent-surface {
+    background: transparent !important;
+}
+
 html.dark form[data-type="unified-composer"] .bg-token-bg-primary,
 html.dark form[data-type="unified-composer"] .dark\:bg-token-bg-elevated-primary,
 html.dark form[data-type="unified-composer"] .dark-oled\:bg-token-bg-primary {
@@ -244,39 +248,12 @@ html.dark section[class*="threadScrollVars"] :is(button, a).btn-secondary:not(.b
     color: #ffffff !important;
 }
 
-html.dark [class*="bg-gradient"],
-html.dark [class*="from-token"],
-html.dark [class*="via-token"],
-html.dark [class*="to-token"] {
-    background-image: none !important;
-}
-
-html.dark .content-fade,
-html.dark .content-fade.single-line,
-html.dark .content-fade-top {
-    --content-fade-bg: #212121 !important;
-    --content-fade-surface: #212121 !important;
-    --fade-start-color: #212121 !important;
-    --fade-end-color: #212121 !important;
-}
-
-html.dark .content-fade::after,
-html.dark .content-fade.single-line::after,
-html.dark .content-fade-top::after {
-    background: #212121 !important;
+html.dark #thread-bottom-container::after {
     background-color: #212121 !important;
-    background-image: none !important;
-    -webkit-mask-image: none !important;
-    mask-image: none !important;
 }
 
-html.dark .bg-thread--header,
-html.dark .bg-thread--footer {
-    background: #212121 !important;
-    background-color: #212121 !important;
-    background-image: none !important;
-    -webkit-mask-image: none !important;
-    mask-image: none !important;
+html.dark [data-testid="thread-disclaimer"] .bg-token-main-surface-primary {
+    box-shadow: none !important;
 }
 
 html.dark [data-stage-thread-flyout],
