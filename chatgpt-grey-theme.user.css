@@ -115,10 +115,21 @@ html.dark [data-testid="use-case-prompt-chips"] button {
     box-sizing: border-box !important;
 }
 
-html.dark [data-testid="use-case-prompt-chips"] button span:has(> svg.icon),
-html.dark [data-testid="use-case-prompt-chips"] button svg.icon {
+html.dark [data-testid="use-case-prompt-chips"] button > span:has(> svg.icon) {
+    width: 19px !important;
+    min-width: 19px !important;
+    height: 19px !important;
+}
+
+html.dark [data-testid="use-case-prompt-chips"] button > span:has(> svg.icon) > svg.icon {
     width: 19px !important;
     height: 19px !important;
+}
+
+html.dark [data-testid="use-case-prompt-chips"] button > span:not(:has(> svg.icon)) {
+    padding-inline-start: 0 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
 }
 
 html.dark .__menu-item[data-sidebar-item] {
