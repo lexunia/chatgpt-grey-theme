@@ -38,6 +38,20 @@ html.dark[data-oled] body {
     scrollbar-color: #ffffff33 #212121 !important;
 }
 
+html.dark :has(> iframe[src^="https://connector_openai_olympic.web-sandbox.oaiusercontent.com"]) {
+    background-color: #212121 !important;
+}
+
+html.dark iframe[src^="https://connector_openai_olympic.web-sandbox.oaiusercontent.com"] {
+    background-color: #212121 !important;
+    mix-blend-mode: screen !important;
+}
+
+/* Health starter cards use overlapping black drop shadows that read as a background strip. */
+html.dark .no-scrollbar.snap-x > button.snap-start {
+    filter: none !important;
+}
+
 html.dark,
 html.dark body,
 html.dark main,
