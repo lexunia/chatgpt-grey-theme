@@ -330,11 +330,18 @@ html.dark [class*="bg-token-bg-tooltip"] {
     border-color: rgba(255, 255, 255, 0.12) !important;
 }
 
-html.dark .popover[role="dialog"][class*="dark:bg-black"] {
+html.dark .popover[role="dialog"][class*="dark:bg-black"],
+html.dark :is(dialog, [role="dialog"]) .shadow-long[class*="dark:bg-black"] {
     background: #303030 !important;
     background-color: #303030 !important;
     background-image: none !important;
     border-color: #4a4a4a !important;
+}
+
+html.dark :is(dialog, [role="dialog"]) .shadow-long[class*="dark:bg-black"] {
+    border: 1px solid rgba(255, 255, 255, 0.16) !important;
+    box-shadow: none !important;
+    padding: 0 !important;
 }
 
 html.dark .masked-content {
