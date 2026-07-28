@@ -1,18 +1,30 @@
-html.dark #page-header > .pointer-events-none.absolute:has([role="group"] button[role="radio"]) {
+html.dark #page-header > .pointer-events-none.absolute:has([role="radiogroup"] button[role="radio"]) {
     inset-inline-start: auto !important;
     inset-inline-end: -11px !important;
     transform: none !important;
     align-items: flex-end !important;
 }
 
-html.dark #page-header [role="group"]:has(button[role="radio"]) {
+html.dark #main > main > .pointer-events-none.absolute:has([role="radiogroup"] button[role="radio"]) {
+    inset-inline-start: auto !important;
+    inset-inline-end: 53px !important;
+    top: 12px !important;
+    height: 28px !important;
+    transform: none !important;
+    align-items: flex-end !important;
+}
+
+html.dark #page-header [role="radiogroup"]:has(button[role="radio"]),
+html.dark #main > main [role="radiogroup"]:has(button[role="radio"]) {
     width: 128px !important;
     height: 28px !important;
     border-radius: 0 !important;
 }
 
-html.dark #page-header [role="group"]:has(button[role="radio"]) > [class*="dark:bg-[#131313]"],
-html.dark #page-header [role="group"]:has(button[role="radio"]) [class*="dark:bg-token-bg-elevated-primary"] {
+html.dark #page-header [role="radiogroup"]:has(button[role="radio"]) > [class*="dark:bg-[#131313]"],
+html.dark #page-header [role="radiogroup"]:has(button[role="radio"]) [class*="dark:bg-token-bg-elevated-primary"],
+html.dark #main > main [role="radiogroup"]:has(button[role="radio"]) > [class*="dark:bg-[#131313]"],
+html.dark #main > main [role="radiogroup"]:has(button[role="radio"]) [class*="dark:bg-token-bg-elevated-primary"] {
     background: transparent !important;
     background-color: transparent !important;
     background-image: none !important;
@@ -20,21 +32,24 @@ html.dark #page-header [role="group"]:has(button[role="radio"]) [class*="dark:bg
     box-shadow: none !important;
 }
 
-html.dark #page-header [role="group"]:has(button[role="radio"]) [class*="z-10"][class*="grid-cols-2"] {
+html.dark #page-header [role="radiogroup"]:has(button[role="radio"]) [class*="z-10"][class*="grid-cols-2"],
+html.dark #main > main [role="radiogroup"]:has(button[role="radio"]) [class*="z-10"][class*="grid-cols-2"] {
     display: flex !important;
     align-items: center !important;
     justify-content: flex-end !important;
     gap: 0 !important;
 }
 
-html.dark #page-header [role="group"]:has(button[role="radio"]) [class*="z-10"][class*="grid-cols-2"] > div {
+html.dark #page-header [role="radiogroup"]:has(button[role="radio"]) [class*="z-10"][class*="grid-cols-2"] > div,
+html.dark #main > main [role="radiogroup"]:has(button[role="radio"]) [class*="z-10"][class*="grid-cols-2"] > div {
     display: flex !important;
     align-items: center !important;
     width: auto !important;
     height: 28px !important;
 }
 
-html.dark #page-header [role="group"]:has(button[role="radio"]) [class*="z-10"][class*="grid-cols-2"] > div:first-child::after {
+html.dark #page-header [role="radiogroup"]:has(button[role="radio"]) [class*="z-10"][class*="grid-cols-2"] > div:first-child::after,
+html.dark #main > main [role="radiogroup"]:has(button[role="radio"]) [class*="z-10"][class*="grid-cols-2"] > div:first-child::after {
     content: "\00b7" !important;
     position: static !important;
     display: inline-block !important;
@@ -44,7 +59,8 @@ html.dark #page-header [role="group"]:has(button[role="radio"]) [class*="z-10"][
     white-space: pre !important;
 }
 
-html.dark #page-header [role="group"]:has(button[role="radio"]) button[role="radio"] {
+html.dark #page-header [role="radiogroup"]:has(button[role="radio"]) button[role="radio"],
+html.dark #main > main [role="radiogroup"]:has(button[role="radio"]) button[role="radio"] {
     width: auto !important;
     min-width: 0 !important;
     height: 28px !important;
@@ -56,10 +72,12 @@ html.dark #page-header [role="group"]:has(button[role="radio"]) button[role="rad
     box-shadow: none !important;
 }
 
-html.dark #page-header [role="group"]:has(button[role="radio"]) button[role="radio"][aria-checked="true"] {
+html.dark #page-header [role="radiogroup"]:has(button[role="radio"]) button[role="radio"][aria-checked="true"],
+html.dark #main > main [role="radiogroup"]:has(button[role="radio"]) button[role="radio"][aria-checked="true"] {
     color: #dadada !important;
 }
 
-html.dark #page-header [role="group"]:has(button[role="radio"]) button[role="radio"][aria-checked="false"] {
+html.dark #page-header [role="radiogroup"]:has(button[role="radio"]) button[role="radio"][aria-checked="false"],
+html.dark #main > main [role="radiogroup"]:has(button[role="radio"]) button[role="radio"][aria-checked="false"] {
     color: #9a9a9a !important;
 }
