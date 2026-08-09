@@ -381,3 +381,34 @@ html.dark main [class*="bg-(--code-block-surface)"]:has(#code-block-viewer) {
 #code-block-viewer.q9tKkq_viewer code {
     font-size: 14px !important;
 }
+
+html.dark a[data-sidebar-item="true"][href^="/c/"] [data-marquee-text="true"] {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+html.dark a[data-sidebar-item="true"][href^="/c/"] [data-marquee-text="true"] > span {
+    width: 100% !important;
+    margin-left: 0 !important;
+    overflow: hidden !important;
+    mask-image: none !important;
+    -webkit-mask-image: none !important;
+}
+
+html.dark a[data-sidebar-item="true"][href^="/c/"] [data-marquee-text="true"] > span > span {
+    display: block !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    padding-left: 0 !important;
+    transform: none !important;
+    animation: none !important;
+}
+
+html.dark a[data-sidebar-item="true"][href^="/c/"] [data-marquee-text="true"] > span > span > span {
+    display: block !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+}
