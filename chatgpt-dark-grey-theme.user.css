@@ -366,21 +366,25 @@ html.dark .prose :where(code):not(:where(pre code, [class~="not-prose"], [class~
     background-color: #313131 !important;
 }
 
-html.dark main [class*="bg-(--code-block-surface)"]:has(#code-block-viewer) {
-    --code-block-surface: #181818 !important;
-    background: #181818 !important;
-    background-color: #181818 !important;
-    background-image: none !important;
-    border: 1px solid rgba(255, 255, 255, 0.01) !important;
-    box-sizing: border-box !important;
+html.dark main pre [class*="border-token-border-light"]:has(> [class*="bg-(--code-block-surface)"]) {
+    border: none !important;
 }
 
+html.dark main pre [class*="bg-(--code-block-surface)"] {
+    --code-block-surface: #313131 !important;
+    background: #313131 !important;
+    background-color: #313131 !important;
+    background-image: none !important;
+}
+
+/*
 #code-block-viewer.q9tKkq_viewer,
 #code-block-viewer.q9tKkq_viewer .cm-content,
 #code-block-viewer.q9tKkq_viewer .cm-line,
 #code-block-viewer.q9tKkq_viewer code {
     font-size: 14px !important;
 }
+*/
 
 html.dark a[data-sidebar-item="true"][href^="/c/"] [data-marquee-text="true"] {
     overflow: hidden !important;
