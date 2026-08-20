@@ -72,3 +72,12 @@ html[data-chat-theme="purple"] a[data-sidebar-item="true"][href="/"] .header-wor
 html[data-chat-theme="purple"] [data-model-reasoning-effort-slider] > [data-orientation="horizontal"] > [data-orientation="horizontal"] > [aria-hidden="true"] {
     background-color: var(--theme-submit-btn-bg) !important;
 }
+
+html[data-chat-theme="purple"] .learning-block-color-scope {
+    --learning-block-color-primary: #cbb6fc !important;
+    --learning-block-accent: #cbb6fc !important;
+}
+
+html[data-chat-theme="purple"] .learning-block-color-scope svg text[class~="dark:stroke-black"] {
+    stroke: none !important;
+}
