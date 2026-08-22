@@ -377,14 +377,12 @@ html.dark main pre [class*="bg-(--code-block-surface)"] {
     background-image: none !important;
 }
 
-/*
 #code-block-viewer.q9tKkq_viewer,
 #code-block-viewer.q9tKkq_viewer .cm-content,
 #code-block-viewer.q9tKkq_viewer .cm-line,
 #code-block-viewer.q9tKkq_viewer code {
     font-size: 14px !important;
 }
-*/
 
 html.dark a[data-sidebar-item="true"][href^="/c/"] [data-marquee-text="true"] {
     overflow: hidden !important;
