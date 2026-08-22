@@ -65,7 +65,20 @@ html[data-chat-theme="purple"] button.behavior-btn.text-token-text-link.entity-u
     color: #ab89fa !important;
 }
 
-html[data-chat-theme="purple"] a[data-sidebar-item="true"][href="/"] .header-wordmark > .text-token-text-tertiary {
+html[data-chat-theme="purple"]:has([data-testid="accounts-profile-button"][aria-label*=" Free,"]) {
+    --header-plan-name: " Free";
+}
+
+html[data-chat-theme="purple"]:has([data-testid="accounts-profile-button"][aria-label*=" Plus,"]) {
+    --header-plan-name: " Plus";
+}
+
+html[data-chat-theme="purple"]:has([data-testid="accounts-profile-button"][aria-label*=" Pro,"]) {
+    --header-plan-name: " Pro";
+}
+
+html[data-chat-theme="purple"] a[data-sidebar-item="true"][href="/"] .header-wordmark::after {
+    content: var(--header-plan-name, "");
     color: #cbb6fc !important;
 }
 
