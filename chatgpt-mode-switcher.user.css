@@ -79,5 +79,5 @@ html.dark #main > main [role="radiogroup"]:has(button[role="radio"]) button[role
 
 html.dark #page-header [role="radiogroup"]:has(button[role="radio"]) button[role="radio"][aria-checked="false"],
 html.dark #main > main [role="radiogroup"]:has(button[role="radio"]) button[role="radio"][aria-checked="false"] {
-    color: #9a9a9a !important;
+    color: #AFAFAF !important;
 }
