@@ -79,6 +79,10 @@ html.dark #page-header .translucent-surface {
     background: transparent !important;
 }
 
+html.dark button:has(svg use[href$="#chat-temp"]) {
+    color: #afafaf !important;
+}
+
 html.dark form[data-type="unified-composer"] .bg-token-bg-primary,
 html.dark form[data-type="unified-composer"] .dark\:bg-token-bg-elevated-primary,
 html.dark form[data-type="unified-composer"] .dark-oled\:bg-token-bg-primary {
