@@ -282,6 +282,14 @@ html.dark #thread-bottom-container::after {
     background-color: #212121 !important;
 }
 
+html.dark .stage-layout.recall [role="dialog"] [class~="bg-(--main-surface-primary)"] {
+    background-color: #212121 !important;
+}
+
+html.dark .stage-layout.recall [role="dialog"] .bg-linear-to-b.from-transparent {
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(33, 33, 33, 0.42) 50%, rgba(33, 33, 33, 0.82) 100%) !important;
+}
+
 html.dark [data-testid="thread-disclaimer"] .bg-token-main-surface-primary {
     box-shadow: none !important;
 }
