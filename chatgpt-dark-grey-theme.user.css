@@ -290,6 +290,18 @@ html.dark .stage-layout.recall [role="dialog"] .bg-linear-to-b.from-transparent 
     background-image: linear-gradient(to bottom, transparent 0%, rgba(28, 28, 28, 0.42) 50%, rgba(28, 28, 28, 0.82) 100%) !important;
 }
 
+html.dark [data-testid="sharing-post-unfurl-view"] .bg-gradient-to-t.from-token-main-surface-primary {
+    background-image: linear-gradient(to top, #181818 0%, transparent 100%) !important;
+}
+
+html.dark [data-testid="sharing-post-unfurl-view"] .rounded-3xl {
+    border-radius: 12px !important;
+}
+
+html.dark [data-testid="sharing-post-unfurl-view"] .rounded-b-3xl {
+    border-radius: 0 0 12px 12px !important;
+}
+
 html.dark [data-testid="thread-disclaimer"] .bg-token-main-surface-primary {
     box-shadow: none !important;
 }
