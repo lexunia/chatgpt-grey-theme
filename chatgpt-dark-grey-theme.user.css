@@ -80,6 +80,26 @@ html.dark #page-header .translucent-surface {
     background: transparent !important;
 }
 
+html.dark:has([data-testid="screen-threadFlyOut"]) #conversation-header-actions.translucent-surface {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    backdrop-filter: none !important;
+}
+
+html.dark:has([data-testid="screen-threadFlyOut"]) #conversation-header-actions [data-testid="share-chat-button"],
+html.dark:has([data-testid="screen-threadFlyOut"]) #conversation-header-actions [data-testid="conversation-options-button"] {
+    background: #303030 !important;
+    background-color: #303030 !important;
+    background-image: none !important;
+}
+
+html.dark:has([data-testid="screen-threadFlyOut"]) #conversation-header-actions [data-testid="share-chat-button"]:hover,
+html.dark:has([data-testid="screen-threadFlyOut"]) #conversation-header-actions [data-testid="conversation-options-button"]:hover {
+    background: #ffffff26 !important;
+    background-color: #ffffff26 !important;
+}
+
 html.dark button:has(svg use[href$="#chat-temp"]) {
     color: #afafaf !important;
 }
@@ -327,6 +347,12 @@ html.dark .stage-thread-flyout-preset-clamped .bg-token-bg-primary,
 html.dark .stage-thread-flyout-preset-clamped [class*="dark:bg-black"] {
     background: #1c1c1c !important;
     background-color: #1c1c1c !important;
+    background-image: none !important;
+}
+
+html.dark [data-testid="screen-threadFlyOut"] [data-testid="artifact-preview-surface-shell"] {
+    background: #2a2a2a !important;
+    background-color: #2a2a2a !important;
     background-image: none !important;
 }
 
